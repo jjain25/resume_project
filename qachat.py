@@ -34,9 +34,7 @@
 #     st.write(f"{role}:{text}")
 
 
-import streamlit as st
-import PyPDF2
-import google.generativeai as genai
+
 
 # Configure Gemini API
 genai.configure(api_key="AIzaSyDzat6gY-WmuDOe1qljTVl_-nelpo9dvUU")
